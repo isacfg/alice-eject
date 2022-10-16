@@ -1,21 +1,38 @@
-// Font Import
+@charset "utf-8"
 
-
-// Colors 
-
-
-// Breakpoints
-
+// Import Raleway and Playfair Display fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&display=swap')
 
 // Rem to pixel
 @function rem($px)
     @return $px / 16px * 1rem
 
-// Typography
-// Font Sizes
+// Colors
+$blackish: #000
+$whiteish: #fff
+$greyish: #bfbfbf
 
+$primary: $whiteish
+$secondary: $greyish
 
-// Font Weight
+// Fonts
+$font-primary: 'Raleway', sans-serif
+$font-secondary: 'Playfair Display', serif
+
+// Font sizes
+$super-header: rem(60px)
+$sub-header: rem(32px)
+$nav-size: rem(16px)
+$button-size: rem(18px)
+
+// Mobile font sizes
+$super-header-mobile: rem(36px)
+$sub-header-mobile: rem(18px)
+// $nav-size-mobile: rem(14px)
+$button-size-mobile: rem(16px)
+    
+
 
 
 

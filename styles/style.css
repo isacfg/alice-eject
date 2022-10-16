@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&display=swap");
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar .navbar-item {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+.navbar .navbar-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #bfbfbf;
+}
+.navbar .navbar-item img {
+  width: 140px;
+  max-height: 140px;
+}
+.navbar .navbar-item .button {
+  border: 2px solid #fff;
+  padding: 1.25rem 1.5625rem !important;
+  transition: color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+.navbar .navbar-item .button:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.navbar .navbar-burger {
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+.navbar .navbar-burger:hover {
+  color: #bfbfbf;
+}
+
+.main {
+  height: 120vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(50% 52.39% at 50% 50%, rgba(0, 0, 0, 0) 0%, #000000 100%), url("../assets/photos/main/bg.jpg") no-repeat;
+  background-blend-mode: normal, darken, normal;
+  mix-blend-mode: normal;
+  background-size: cover;
+  background-position: top;
+}
+.main .container {
+  height: 40vh;
+}
+.main .container .title {
+  font-size: 3.75rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.main .container .subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #fff;
+}
+.main .container .field {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.main .container .field .buttons {
+  display: flex;
+  gap: 3.125rem;
+}
+.main .container .field .buttons .button {
+  font-size: 1.125rem !important;
+  padding: 1.5625rem 2.5rem !important;
+  font-weight: 500;
+  color: #000;
+  border: 2px solid #fff;
+  transition: color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+.main .container .field .buttons .button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.main .container .field .buttons .button.secondary {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.main .container .field .buttons .button.secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
+.main .socials {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 9.375rem;
+}
+.main .socials .socials-icons {
+  display: flex;
+  gap: 3.125rem;
+  margin-top: -13px;
+}
+.main .socials .socials-icons .social-icon {
+  color: #fff;
+}
+.main .socials .socials-icons .social-icon:hover {
+  color: #bfbfbf;
+}
+.main .socials .line {
+  display: inline-block;
+  width: 40%;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar {
+    background-color: #000;
+  }
+  .navbar-menu {
+    background-color: #000;
+  }
+  .navbar-menu .navbar-item {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+  }
+  .navbar-menu .navbar-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #bfbfbf;
+  }
+  .navbar-menu .navbar-item img {
+    width: 140px;
+    max-height: 140px;
+  }
+  .navbar-menu .navbar-item .button {
+    border: 2px solid #fff;
+    padding: 1.25rem 1.5625rem !important;
+    transition: color 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out;
+  }
+  .navbar-menu .navbar-item .button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .container .title {
+    font-size: 2.25rem;
+  }
+  .main .container .subtitle {
+    font-size: 1.125rem;
+  }
+  .main .container .field .buttons {
+    gap: 1.875rem;
+  }
+  .main .container .field .buttons .button {
+    font-size: 1rem !important;
+    padding: 1.25rem 2.1875rem !important;
+  }
+  .main .socials .socials-icons {
+    gap: 0.9375rem;
+  }
+  .main .socials .line {
+    width: 35%;
+  }
+}

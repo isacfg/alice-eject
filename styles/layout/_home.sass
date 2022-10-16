@@ -1,0 +1,90 @@
+
+
+    
+
+.main
+    height: 120vh
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), radial-gradient(50% 52.39% at 50% 50%, rgba(0, 0, 0, 0) 0%, #000000 100%), url('../assets/photos/main/bg.jpg') no-repeat
+    background-blend-mode: normal, darken, normal
+    mix-blend-mode: normal
+    background-size: cover
+    background-position: top
+
+    .container
+        height: 40vh
+        
+        .title
+            font-size: $super-header
+            font-weight: 600
+            color: $whiteish
+            text-align: center
+
+        .subtitle
+            text-align: center
+            font-size: $sub-header
+            font-family: $font-secondary
+            font-weight: 400
+            color: $whiteish
+
+        .field
+            display: flex
+            justify-content: center
+            margin-top: 3rem
+
+            .buttons
+                display: flex
+                gap: rem(50px)
+
+                .button
+                    
+                    // display: none
+                    font-size: $button-size !important
+                    padding: rem(25px) rem(40px) !important
+                    font-weight: 500
+                    color: $blackish
+                    border: 2px solid $whiteish
+
+                    transition: color 0.2s ease-in-out
+                    transition: background 0.2s ease-in-out
+
+                    &:hover 
+                        background-color: rgba(0, 0, 0, 0.2)
+                        color: $whiteish
+
+
+                    &.secondary
+                        // transparent
+                        background-color: rgba(0, 0, 0, 0.2)
+                        color: $whiteish
+
+                        &:hover 
+                            background-color: $whiteish
+                            color: $blackish
+
+    .socials
+        display: flex
+        justify-content: space-between
+        flex-wrap: nowrap
+        margin-top: rem(150px)
+
+        .socials-icons
+            display: flex
+            gap: rem(50px)
+            margin-top: -13px
+            // align-items: flex-start
+            // justify-content: space-between
+
+
+            .social-icon
+                color: $whiteish
+
+                &:hover
+                    color: $greyish
+            
+        .line
+            display: inline-block
+            width: 40%
+            height: 2px
+            background-color: $whiteish
+            border-radius: 10px
+  
