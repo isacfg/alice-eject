@@ -1,0 +1,78 @@
+montar um site institucional de alguma empresa escolhida 
+desktop e mobile
+
+Escopo
+● navbar: Barra de navegação que contém o link para todas as
+seções do site; 
+● Seção inicial: Primeira seção da página; pode conter elementos
+como: slogan, botões de redirecionamentos, imagens, números,
+redes sociais, etc;
+● Quem somos: Seção com informações da empresa, deve conter:
+história ou descrição, missão, visão e valores;
+● Serviços: Seção informando os serviços da empresa;
+● Parceiros: Seção informando os parceiros da empresa, deve
+conter um carrossel;
+● Formulário de contato: Seção com um formulário para o usuário
+entrar em contato com a empresa. Deverá conter os seguintes
+campos obrigatórios: nome, telefone, e-mail e mensagem (Apenas
+a parte visual, não precisa funcionar);
+● Rodapé: Seção final da página, deve conter a seguinte frase:
+ProSEmpre BETA - EJECT © 2022.2
+
+nav
+main
+portfolio
+sobre
+serviços
+parceiros
+contato
+rodape
+
+
+
+
+Logo
+Great Vibes
+Poppins
+
+Website
+Raleway
+Playfair
+
+
+Company:
+
+
+Credits
+main
+Photo by <a href="https://unsplash.com/@ilumire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jelleke Vanooteghem</a> on <a href="https://unsplash.com/s/photos/child-portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@davon_fkid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Donik Vladimir</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+porfolio gallery
+Photo by <a href="https://unsplash.com/@senjuti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Senjuti Kundu</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@sarahlouisekinsella?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sarah Louise Kinsella</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@ttrapani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Todd Trapani</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">🇸🇮 Janko Ferlič</a> on <a href="https://unsplash.com/photos/1S-qoR1wiVs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@capturedby_kiana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiana Bosman</a> on <a href="https://unsplash.com/s/photos/child-portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@shahinkhalaji?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">shahin khalaji</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">🇸🇮 Janko Ferlič</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@apsprudente?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patricia Prudente</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@dani_franco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Danie Franco</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@rikonavt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rikonavt</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@danilal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniil Lobachev</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+sobre
+Photo by <a href="https://unsplash.com/@throughmyeyes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hester Ras</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+servicos
+Photo by <a href="https://unsplash.com/@daiga_ellaby?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daiga Ellaby</a> on <a href="https://unsplash.com/photos/6KRmH6k3Rdk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Borba</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">🇸🇮 Janko Ferlič</a> on <a href="https://unsplash.com/s/photos/child-portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+parceiros
+https://splidejs.com/
+
+contato
+Image by <a href="https://pixabay.com/users/twigaconseils-6323191/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2700439">Ben G</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2700439">Pixabay</a>
