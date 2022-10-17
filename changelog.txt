@@ -1,5 +1,21 @@
  
 TODO:
+- Compress images?
 
 
+#0.2v
+- Added Background on fixed navbar
+- Added Portfolio section Desktop
+- Added Portfolio section Mobile
+- Added About section Desktop
+- Added About section Mobile
 
+#0.1v
+- Added Nav Desktop
+- Added Nav Mobile
+- Added Main Desktop
+- Added Main Mobile
+
+#0.0v
+- Basic folder structure
+- Assets

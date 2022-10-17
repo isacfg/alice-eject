@@ -1,6 +1,8 @@
 
 @import "_header"
 @import "_home"
+@import "_portfolio"
+@import "_sobre"
 
 
 *
@@ -18,4 +20,20 @@ body
     font-smooth: always
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
+
+.title
+    &.is-2
+        text-align: center
+        color: $whiteish
+        font-size: $section-header
+        // margin-bottom: 2rem
+
+        span
+            font-family: $font-secondary
+
+@media screen and (max-width: 768px)
+    .title
+        &.is-2
+            font-size: $section-header-mobile
+            margin-bottom: 1rem
 
