@@ -11,3 +11,23 @@
 
     .container
         height: auto
+
+        .button
+            margin-top: 1rem
+
+            // display: none
+            font-size: $button-size !important
+            padding: rem(25px) rem(40px) !important
+            font-weight: 500
+            border: 2px solid $whiteish
+
+            transition: color 0.2s ease-in-out
+            transition: background 0.2s ease-in-out
+
+            &.secondary
+                background-color: rgba(0, 0, 0, 0.2)
+                color: $whiteish
+
+                &:hover 
+                    background-color: $whiteish
+                    color: $blackish

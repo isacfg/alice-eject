@@ -7,7 +7,16 @@ TODO:
 - Lazy Load
 - Animations
 - Parallax
+- Contact Section Full
+- Contact Section Mobile
+- Form styles
+- Footer
+- Slider parceiros
 
+#0.4v
+- Added Nav Links
+- Added Image credits
+- Added Parcial Contact section Desktop
 
 #0.3v
 - Removed legacy bulma code

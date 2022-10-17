@@ -17,7 +17,7 @@
 <body class="has-navbar-fixed-top">
 
     <!-- Menu + S -->
-    <section class="section main">
+    <section id="home" class="section main">
         <div class="container">
             <nav class="navbar is-fixed-top is-spaced" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
@@ -37,23 +37,23 @@
 
 
                     <div class="navbar-end">
-                        <a class="navbar-item">
+                        <a href="#home" class="navbar-item">
                             Home
                         </a>
 
-                        <a class="navbar-item">
+                        <a href="#sobre" class="navbar-item">
                             Sobre
                         </a>
-                        <a class="navbar-item">
+                        <a href="#servicos" class="navbar-item">
                             Serviços
                         </a>
-                        <a class="navbar-item">
+                        <a href="#parceiros" class="navbar-item">
                             Parceiros
                         </a>
 
                         <div class="navbar-item">
                             <div class="buttons">
-                                <a class="button is-rounded">
+                                <a href="#contato" class="button is-rounded">
                                     Contato
                                 </a>
 
@@ -93,7 +93,7 @@
     </section>
 
     <!-- Portfolio Section -->
-    <section class="section portfolio">
+    <section id="portfolio" class="section portfolio">
 
         <div class="container">
             <h2 class="title is-2">Um pouco do <span>meu trabalho</span></h2>
@@ -190,7 +190,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="section sobre">
+    <section id="sobre" class="section sobre">
         <div class="container">
             <h2 class="title is-2">Quem <span>eu sou</span></h2>
 
@@ -212,7 +212,7 @@
     </section>
 
     <!-- Seção Serviços -->
-    <section class="section servicos">
+    <section id="servicos" class="section servicos">
         <div class="container">
             <h2 class="title is-2">Meus <span>serviços</span></h2>
 
@@ -283,17 +283,83 @@
     </section>
 
     <!-- Seção Parceiros -->
-    <section class="section parceiros">
+    <section id="parceiros" class="section parceiros">
         <div class="container">
             <h2 class="title is-2">Empresas que <span>confiam</span> no meu <span>trabalho</span></h2>
         </div>
     </section>
 
     <!-- Seção Contato -->
-    <section class="section contact">
+    <section id="contato" class="section contact">
         <div class="container">
             <h2 class="title is-2">Agende um <span>horário</span></h2>
 
+            <!-- Bulma Form -->
+            <div class="columns">
+                <div class="column is-8 is-offset-2">
+
+
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <p class="control is-expanded">
+                                    <input class="input" type="text" placeholder="Nome">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <p class="control is-expanded">
+                                    <input class="input" type="email" placeholder="Email" value="">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field is-expanded">
+                                <div class="field">
+                                    <p class="control is-expanded">
+                                        <input class="input" type="tel" placeholder="Telefone">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <input class="input" type="text" placeholder="Assunto">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <textarea class="textarea" placeholder="Menssagem"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control">
+                                    <button class="button secondary is-rounded">
+                                        Enviar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

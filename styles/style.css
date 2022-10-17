@@ -269,6 +269,23 @@
 .contact .container {
   height: auto;
 }
+.contact .container .button {
+  margin-top: 1rem;
+  font-size: 1.125rem !important;
+  padding: 1.5625rem 2.5rem !important;
+  font-weight: 500;
+  border: 2px solid #fff;
+  transition: color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+.contact .container .button.secondary {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.contact .container .button.secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
 
 * {
   box-sizing: border-box;
