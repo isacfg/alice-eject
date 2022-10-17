@@ -1,2 +1,8 @@
-Manually compile bulma in terminal
-sass node_modules\bulma\bulma.sass node_modules\bulma\css\bulma.css
+
+Alice
+HTML5
+CSS3
+JavaScript
+SASS
+Bulma
+Ionic Icons

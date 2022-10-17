@@ -1,6 +1,18 @@
  
 TODO:
-- Compress images?
+- Compress images
+- Reduce code duplication
+- Remove original images folder
+- Add Favicon
+- Lazy Load
+- Animations
+- Parallax
+
+
+#0.3v
+- Removed legacy bulma code
+- Added Services section Desktop
+- Added Services section Mobile
 
 
 #0.2v

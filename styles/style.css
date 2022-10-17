@@ -117,8 +117,9 @@
 
 .portfolio img {
   margin-bottom: 0.5rem;
-  transition: filter 0.2s ease-in-out;
+  transition: filter 0.5s ease-in-out;
   filter: brightness(0.9);
+  border-radius: 5px;
 }
 .portfolio img:hover {
   filter: brightness(0.5);
@@ -188,6 +189,85 @@
 .sobre .container .botao .button.secondary:hover {
   background-color: #fff;
   color: #000;
+}
+
+.servicos .texts .title {
+  padding: 0 0.625rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 28px;
+}
+.servicos .texts .subtitle {
+  padding: 0 0.625rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #bfbfbf;
+}
+.servicos .texts li {
+  font-weight: 400;
+  color: #bfbfbf !important;
+}
+.servicos .image-1 {
+  height: 31.25rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.35%, #000000 100%), url("../assets/photos/servicos/1a.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 0px 0px;
+  transition: filter 0.5s ease-in-out;
+}
+.servicos .image-1:hover {
+  filter: brightness(0.5);
+}
+.servicos .image-2 {
+  height: 31.25rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.35%, #000000 100%), url("../assets/photos/servicos/2a.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 0px 0px;
+  transition: filter 0.5s ease-in-out;
+}
+.servicos .image-2:hover {
+  filter: brightness(0.5);
+}
+.servicos .image-3 {
+  height: 31.25rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.35%, #000000 100%), url("../assets/photos/servicos/3a.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 0px 0px;
+  transition: filter 0.5s ease-in-out;
+}
+.servicos .image-3:hover {
+  filter: brightness(0.5);
+}
+.servicos .botao {
+  margin-top: 2rem;
+}
+.servicos .botao .button {
+  font-size: 1.125rem !important;
+  padding: 1.5625rem 2.5rem !important;
+  font-weight: 500;
+  border: 2px solid #fff;
+  transition: color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
+.servicos .botao .button.secondary {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.servicos .botao .button.secondary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.contact {
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -41.99%, #000000 100%), url("../assets/photos/contact/bg.jpg");
+  mix-blend-mode: normal;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: flex-end;
+}
+.contact .container {
+  height: auto;
 }
 
 * {
