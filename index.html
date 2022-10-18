@@ -14,6 +14,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles\style.css">
 
+    <!-- Scroll Reveal Js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>Alice Leão - Fotografia</title>
 </head>
 
@@ -67,16 +70,16 @@
             </nav>
         </div>
         <div class="container home">
-            <h1 class="title is-1">Fotos poderosas,
+            <h1 class="title is-1 reveal-headline">Fotos poderosas,
                 criativas e intensas</h1>
-            <p class="subtitle is-3">Lorem risus ut nulla
+            <p class="subtitle is-3 reveal-subheadline">Lorem risus ut nulla
                 feugiat sed metus.</p>
             <div class="field is-grouped">
                 <div class="buttons are-medium">
-                    <a href="#portfolio" class="button is-rounded">
+                    <a href="#portfolio" class="button is-rounded reveal-btn">
                         Portfólio
                     </a>
-                    <a href="#servicos" class="button secondary is-rounded">
+                    <a href="#servicos" class="button secondary is-rounded reveal-btn">
                         Serviços
                     </a>
                 </div>
@@ -85,10 +88,10 @@
             <div class="socials">
                 <div class="line"></div>
                 <div class="socials-icons">
-                    <a href="" class="social-icon">
+                    <a target="_blank" href="https://isacfg.github.io/portfolio/" class="social-icon">
                         <ion-icon size="large" name="logo-behance"></ion-icon>
                     </a>
-                    <a href="" class="social-icon">
+                    <a target="_blank" href="https://isacfg.github.io/portfolio/" class="social-icon">
                         <ion-icon size="large" name="logo-instagram"></ion-icon>
                     </a>
                 </div>
@@ -199,13 +202,26 @@
         <div class="container">
             <h2 class="title is-2">Quem <span>eu sou</span></h2>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor turpis vulputate mauris fringilla aenean
-                dolor. Tellus ac
-                convallis convallis nibh suspendisse sapien eget. Et mi ultrices cursus aenean varius libero. Vestibulum
-                id
-                pellentesque
-                orci dui ut enim.</p>
-            <p>Do you want to know more about me or can I take a portrait photo of you? Please feel free to contact me
+            <p>
+
+                <!-- história ou descrição, missão, visão e valores -->
+                Oii meu nome é Alice, trabalho com fotografia desde 2010, e mais especificamente fotografias de crianças
+                a partir de 2018.
+
+                <!-- Tenho uma paixão especial por fotografia de crianças, pois acho que a infância é a fase mais bonita da
+                vida, e que deve
+                ser
+                preservada e eternizada, pois passa tão rápido.  -->
+
+                Meu objetivo é registrar a essência da criança, e fazer com que ela se sinta livre para ser quem ela é,
+                e brincar
+                com a câmera. 
+                
+                Acredito que um bom trabalho necessite de respeito, amor e criatividade
+
+            </p>
+            <p>Quer saber mais sobre mim ou posso tirar uma foto sua? Por favor sinta-se à vontade para me mandar uma
+                menssagem 😊
             </p>
 
             <div class="botao">
@@ -233,6 +249,7 @@
                             <li>90 min em um estúdio profissional</li>
                             <li>Galeria online para ver as fotos</li>
                             <li>Prazo de entrega de 1 a 2 semanas</li>
+                            <li>Máximo de 4 pessoas por sessão</li>
                             <li>Idade: a partir de 6 meses</li>
                         </ul>
                         <div class="botao">
@@ -327,16 +344,19 @@
                 <div class="column is-8 is-offset-2">
 
 
-                    <div class="field is-horizontal">
+                    <div class="field is-horizontal formulario">
                         <div class="field-body">
                             <div class="field">
+                                <label for="name" class="label">Name</label>
                                 <p class="control is-expanded">
-                                    <input class="input" type="text" placeholder="Nome">
+                                    <input id="name" class="input" type="text" placeholder="Ex: Sherlock Holmes">
                                 </p>
                             </div>
                             <div class="field">
+                                <label for="email" class="label">Email</label>
                                 <p class="control is-expanded">
-                                    <input class="input" type="email" placeholder="Email" value="">
+                                    <input id="email" class="input" type="email"
+                                        placeholder="Ex: sherlockandjohn@gmail.com" value="">
                                 </p>
                             </div>
                         </div>
@@ -346,8 +366,9 @@
                         <div class="field-body">
                             <div class="field is-expanded">
                                 <div class="field">
-                                    <p class="control is-expanded">
-                                        <input class="input" type="tel" placeholder="Telefone">
+                                    <label for="fone" class="label">Email</label>
+                                    <p id="fone" class="control is-expanded">
+                                        <input class="input" type="tel" placeholder="(69) 2323-3494">
                                     </p>
                                 </div>
                             </div>
@@ -358,8 +379,10 @@
                     <div class="field is-horizontal">
                         <div class="field-body">
                             <div class="field">
+                                <label for="subject" class="label">Assunto</label>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="Assunto">
+                                    <input id="subject" class="input" type="text"
+                                        placeholder="Ex: orçamento para retratos">
                                 </div>
                             </div>
                         </div>
@@ -368,8 +391,9 @@
                     <div class="field is-horizontal">
                         <div class="field-body">
                             <div class="field">
+                                <label for="message" class="label">Menssagem</label>
                                 <div class="control">
-                                    <textarea class="textarea" placeholder="Menssagem"></textarea>
+                                    <textarea id="message" class="textarea" placeholder="Menssagem"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -412,11 +436,10 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js\slick.js"></script>
 
-    <!-- reveal on scroll -->
-
     <!-- Javascript -->
     <script src="js/nav.js"></script>
-    <script defer src="js/slider.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/animations.js"></script>
 </body>
 
 </html>

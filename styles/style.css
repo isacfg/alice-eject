@@ -44,6 +44,26 @@
   background-size: cover;
   background-position: top;
 }
+.main .navbar-burger span {
+  width: 24px;
+  height: 2px;
+}
+.main .navbar-burger {
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+}
+.main .navbar-burger span:nth-child(2) {
+  top: calc(50% + 0px);
+}
+.main .navbar-burger span:nth-child(3) {
+  top: calc(50% + 6px);
+}
+.main .navbar-burger.is-active span:nth-child(2) {
+  top: calc(50% - 1px);
+}
+.main .navbar-burger.is-active span:nth-child(3) {
+  top: calc(50% + 4px);
+}
 .main .container {
   height: 40vh;
 }
@@ -274,8 +294,13 @@
 .contact .container {
   height: auto;
 }
-.contact .container input {
-  margin: 0.5rem 0.5rem 0.5rem 0;
+.contact .container .formulario {
+  margin-top: 2rem;
+}
+.contact .container .label {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 .contact .container input::placeholder {
   color: #bfbfbf;
@@ -283,7 +308,6 @@
   font-weight: 500;
 }
 .contact .container textarea::placeholder {
-  margin-top: 0.5rem;
   color: #bfbfbf;
   font-family: "Raleway", sans-serif;
   font-weight: 500;

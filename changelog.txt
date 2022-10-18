@@ -1,13 +1,17 @@
  
 TODO:
-- Priority
-	* Form styles
-	* Copy
 
 - Reduce code duplication
 - Add Favicon
 - Lazy Load
+
+
+#1.0v
 - Animations
+- Add labels Form
+- Bigger hamburguer button
+- Copy
+
 
 #0.5v
 - Compress images

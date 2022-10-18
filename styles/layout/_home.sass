@@ -10,6 +10,30 @@
     background-size: cover
     background-position: top
 
+
+    // Aumentar menu mobile
+    .navbar-burger span
+        width: 24px
+        height: 2px
+
+    .navbar-burger
+        margin-right: 1rem
+        margin-top: 0.25rem
+
+    .navbar-burger span:nth-child(2)
+        top: calc(50% + 0px)
+
+    .navbar-burger span:nth-child(3)
+        top: calc(50% + 6px)
+
+    .navbar-burger.is-active span:nth-child(2) 
+        top: calc(50% - 1px)
+
+    .navbar-burger.is-active span:nth-child(3)
+        top: calc(50% + 4px)
+
+
+
     .container
         height: 40vh
         
