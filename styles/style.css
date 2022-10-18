@@ -257,6 +257,11 @@
   color: #000;
 }
 
+.parceiros .slider div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contact {
   height: 130vh;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) -41.99%, #000000 100%), url("../assets/photos/contact/bg.jpg");
