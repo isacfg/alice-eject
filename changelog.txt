@@ -6,17 +6,15 @@ TODO:
 - Add Favicon
 - Lazy Load
 - Animations
-- Parallax
-- Contact Section Full
-- Contact Section Mobile
 - Form styles
-- Footer
 - Slider parceiros
+- Copy
 
 #0.4v
 - Added Nav Links
 - Added Image credits
 - Added Parcial Contact section Desktop
+- Added Footer Desktop/Mobile
 
 #0.3v
 - Removed legacy bulma code

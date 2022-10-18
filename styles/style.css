@@ -301,6 +301,39 @@
   color: #000;
 }
 
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #fff;
+  border-radius: 0 0 10px 10px;
+}
+.rodape p {
+  padding: 1rem 0;
+}
+.rodape p a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.rodape p a:hover {
+  color: #8a39e1;
+}
+.rodape p span {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .rodape {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  .rodape p {
+    padding: 0;
+    margin-bottom: 0.2rem;
+  }
+}
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
