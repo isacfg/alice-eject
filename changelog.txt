@@ -10,7 +10,8 @@ TODO:
 - Animations
 - Add labels Form
 - Bigger hamburguer button
-- Copy
+- Removed Filler text
+- Added Figma Original Design
 
 
 #0.5v
