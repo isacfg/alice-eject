@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- SlickJs -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <!-- CSS Compilado (SASS) -->
+    <!-- CSS -->
     <link rel="stylesheet" href="styles\style.css">
 
     <title>Alice Leão - Fotografia</title>
@@ -64,14 +66,16 @@
             </nav>
         </div>
         <div class="container home">
-            <h1 class="title is-1">Fotos poderosas, criativas e intensas</h1>
-            <p class="subtitle is-3">Lorem risus ut nulla feugiat sed metus.</p>
+            <h1 class="title is-1">Fotos poderosas,
+                criativas e intensas</h1>
+            <p class="subtitle is-3">Lorem risus ut nulla
+                feugiat sed metus.</p>
             <div class="field is-grouped">
                 <div class="buttons are-medium">
-                    <a class="button is-rounded">
+                    <a href="#portfolio" class="button is-rounded">
                         Portfólio
                     </a>
-                    <a class="button secondary is-rounded">
+                    <a href="#servicos" class="button secondary is-rounded">
                         Serviços
                     </a>
                 </div>
@@ -204,7 +208,7 @@
             </p>
 
             <div class="botao">
-                <a class="button secondary is-rounded">
+                <a href="#contato" class="button secondary is-rounded">
                     Contato
                 </a>
             </div>
@@ -286,6 +290,16 @@
     <section id="parceiros" class="section parceiros">
         <div class="container">
             <h2 class="title is-2">Empresas que <span>confiam</span> no meu <span>trabalho</span></h2>
+
+            <div class="slider">
+                <div class="">1</div>
+                <div class="">2</div>
+                <div class="">3</div>
+                <div class="">4</div>
+                <div class="">5</div>
+                <div class="">6</div>
+            </div>
+
         </div>
     </section>
 
@@ -368,8 +382,16 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <!-- SlickJs -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
     <!-- Javascript -->
     <script src="js/nav.js"></script>
+    <script defer src="js/slider.js"></script>
 </body>
 
 </html>
