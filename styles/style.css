@@ -294,6 +294,19 @@
 .contact .container {
   height: auto;
 }
+.contact .container .input, .contact .container .select, .contact .container .textarea {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+.contact .container .input:focus, .contact .container .select:focus, .contact .container .textarea:focus {
+  background: white;
+  color: black;
+}
+.contact .container .input.active, .contact .container .select.active, .contact .container .textarea.active {
+  background: white;
+  color: black;
+}
 .contact .container .formulario {
   margin-top: 2rem;
 }

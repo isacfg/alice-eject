@@ -12,6 +12,22 @@
     .container
         height: auto
 
+        .input, .select, .textarea
+            background: rgba(0, 0, 0, 0.2)
+            border: 1px solid rgba(255, 255, 255, 0.5)
+            color: #fff
+
+        .input, .select, .textarea
+            &:focus
+                background: white
+                // border: 1px solid rgba(255, 255, 255, 0.5)
+                color: black
+
+            &.active
+                background: white
+                // border: 1px solid rgba(255, 255, 255, 0.5)
+                color: black
+
         .formulario
             margin-top: 2rem
 

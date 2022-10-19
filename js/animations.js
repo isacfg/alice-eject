@@ -33,3 +33,4 @@ ScrollReveal().reveal('.portfolio-item', {
     easing: 'ease-in-out',
     interval: 150,
 })
+
