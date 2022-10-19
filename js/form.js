@@ -22,3 +22,22 @@ inputs.forEach((input) => {
         }
     });
 });
+
+// const nav = document.querySelector('.navbar');
+
+// window.onscroll = (e) => {
+//     if (window.pageYOffset > 0) {
+//         nav.classList.toggle('scrolled');
+//         console.log(e)
+//     }
+//     else {
+//         nav.classList.toggle('scrolled');
+//     }
+// }
+// Make navbar transparent when it is on the top
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $(".navbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});

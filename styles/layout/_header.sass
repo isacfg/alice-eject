@@ -1,7 +1,11 @@
 .navbar
     // transparent
-    background-color: rgba(0, 0, 0, 0.95) 
+    background-color: rgba(0, 0, 0, 0.01) 
     // border-bottom: 1px solid $greyish
+    transition: background-color 0.5s ease-in-out !important
+    &.scrolled
+        background-color: rgba(0, 0, 0, 0.95) 
+
 
 
     .navbar-item
