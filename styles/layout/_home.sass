@@ -68,12 +68,13 @@
                     color: $blackish
                     border: 2px solid $whiteish
 
-                    transition: color 0.2s ease-in-out
-                    transition: background 0.2s ease-in-out
+                    transition-duration: 200ms
+                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
                     &:hover 
                         background-color: rgba(0, 0, 0, 0.2)
                         color: $whiteish
+                        
 
 
                     &.secondary

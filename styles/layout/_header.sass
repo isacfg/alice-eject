@@ -28,14 +28,17 @@
             border: 2px solid $whiteish
             // border: none
             padding: rem(20px) rem(25px) !important
-            transition: color 0.2s ease-in-out
-            transition: background 0.2s ease-in-out
+            transition-property: all
+            transition-duration: 200ms
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 
             &:hover 
                 // background: #303030
                 background: rgba(0, 0, 0, 0.2)
                 color: $whiteish
-
+                // transform-scale-x: 1.1
+                // transform-scale-y: 1.1
+                transform: scale(1.1)
 
     .navbar-burger
         color: $whiteish

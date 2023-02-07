@@ -1,311 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- SlickJs -->
+		<link rel="stylesheet" type="text/css" href="styles\slick.css" />
+		<link rel="stylesheet" type="text/css" href="styles\slick-theme.css" />
+		<!-- Bulma -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+		/>
+		<!-- CSS -->
+		<link rel="stylesheet" href="styles\style.css" />
 
-    <!-- SlickJs -->
-    <link rel="stylesheet" type="text/css" href="styles\slick.css" />
-    <link rel="stylesheet" type="text/css" href="styles\slick-theme.css" />
-    <!-- Bulma -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles\style.css">
+		<!-- Scroll Reveal Js -->
+		<script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- Scroll Reveal Js -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+		<title>Alice Leão - Fotografia</title>
+	</head>
 
-    <title>Alice Leão - Fotografia</title>
-</head>
+	<body class="has-navbar-fixed-top">
+		<!-- Menu + S -->
+		<section id="home" class="section main">
+			<div class="container">
+				<nav
+					class="navbar is-fixed-top is-spaced"
+					role="navigation"
+					aria-label="main navigation"
+				>
+					<div class="navbar-brand">
+						<a class="navbar-item" href="#">
+							<img src="assets\logo\logo-dark.svg" alt="" />
+						</a>
 
-<body class="has-navbar-fixed-top">
+						<a
+							role="button"
+							class="navbar-burger"
+							aria-label="menu"
+							aria-expanded="false"
+							data-target="navbarBasicExample"
+						>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
 
-    <!-- Menu + S -->
-    <section id="home" class="section main">
-        <div class="container">
-            <nav class="navbar is-fixed-top is-spaced" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">
-                    <a class="navbar-item" href="#">
-                        <img src="assets\logo\logo-dark.svg" alt="">
-                    </a>
+					<div id="navbarBasicExample" class="navbar-menu">
+						<div class="navbar-end">
+							<a href="#home" class="navbar-item"> Home </a>
 
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                        data-target="navbarBasicExample">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>
+							<a href="#sobre" class="navbar-item"> Sobre </a>
+							<a href="#servicos" class="navbar-item">
+								Serviços
+							</a>
+							<a href="#parceiros" class="navbar-item">
+								Parceiros
+							</a>
 
-                <div id="navbarBasicExample" class="navbar-menu">
+							<div class="navbar-item">
+								<div class="buttons">
+									<a
+										href="#contato"
+										class="button is-rounded"
+									>
+										Contato
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="container home">
+				<h1 class="title is-1 reveal-headline">
+					Fotos poderosas, criativas e intensas
+				</h1>
+				<p class="subtitle is-3 reveal-subheadline">
+					Lorem risus ut nulla feugiat sed metus.
+				</p>
+				<div class="field is-grouped">
+					<div class="buttons are-medium">
+						<a
+							href="#portfolio"
+							class="button is-rounded reveal-btn"
+						>
+							Portfólio
+						</a>
+						<a
+							href="#servicos"
+							class="button secondary is-rounded reveal-btn"
+						>
+							Serviços
+						</a>
+					</div>
+				</div>
 
+				<div class="socials">
+					<div class="line"></div>
+					<div class="socials-icons">
+						<a
+							target="_blank"
+							href="https://isacfg.github.io/portfolio/"
+							class="social-icon"
+						>
+							<ion-icon
+								size="large"
+								name="logo-behance"
+							></ion-icon>
+						</a>
+						<a
+							target="_blank"
+							href="https://isacfg.github.io/portfolio/"
+							class="social-icon"
+						>
+							<ion-icon
+								size="large"
+								name="logo-instagram"
+							></ion-icon>
+						</a>
+					</div>
+					<div class="line"></div>
+				</div>
+			</div>
+		</section>
 
-                    <div class="navbar-end">
-                        <a href="#home" class="navbar-item">
-                            Home
-                        </a>
+		<!-- Portfolio Section -->
+		<section id="portfolio" class="section portfolio">
+			<div class="container">
+				<h2 class="title is-2">
+					Um pouco do <span>meu trabalho</span>
+				</h2>
 
-                        <a href="#sobre" class="navbar-item">
-                            Sobre
-                        </a>
-                        <a href="#servicos" class="navbar-item">
-                            Serviços
-                        </a>
-                        <a href="#parceiros" class="navbar-item">
-                            Parceiros
-                        </a>
+				<div class="columns is-variable is-2">
+					<div class="column is-half">
+						<div class="columns is-mobile is-variable is-2">
+							<div class="column">
+								<a
+									target="_blank"
+									href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\1a.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@dani_franco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\1b.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@shahinkhalaji?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										class="last-image"
+										src="assets\photos\portfolio\1c.png"
+										alt=""
+									/>
+								</a>
+							</div>
+							<div class="column">
+								<a
+									target="_blank"
+									href="https://unsplash.com/@capturedby_kiana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\2a.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@sarahlouisekinsella?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\2b.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@danilal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										class="last-image"
+										src="assets\photos\portfolio\2c.png"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="column is-half">
+						<div class="columns is-mobile is-variable is-2">
+							<div class="column">
+								<a
+									target="_blank"
+									href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\3a.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@rikonavt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\3b.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@ttrapani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										class="last-image"
+										src="assets\photos\portfolio\3c.png"
+										alt=""
+									/>
+								</a>
+							</div>
+							<div class="column">
+								<a
+									target="_blank"
+									href="https://unsplash.com/@apsprudente?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\4a.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@senjuti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										src="assets\photos\portfolio\4b.jpg"
+										alt=""
+									/>
+								</a>
+								<a
+									target="_blank"
+									href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+									class="portfolio-item"
+								>
+									<img
+										class="last-image"
+										src="assets\photos\portfolio\4c.png"
+										alt=""
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                        <div class="navbar-item">
-                            <div class="buttons">
-                                <a href="#contato" class="button is-rounded">
-                                    Contato
-                                </a>
+				<div class="botao">
+					<a class="button secondary is-rounded"> Ver mais </a>
+				</div>
+			</div>
+		</section>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="container home">
-            <h1 class="title is-1 reveal-headline">Fotos poderosas,
-                criativas e intensas</h1>
-            <p class="subtitle is-3 reveal-subheadline">Lorem risus ut nulla
-                feugiat sed metus.</p>
-            <div class="field is-grouped">
-                <div class="buttons are-medium">
-                    <a href="#portfolio" class="button is-rounded reveal-btn">
-                        Portfólio
-                    </a>
-                    <a href="#servicos" class="button secondary is-rounded reveal-btn">
-                        Serviços
-                    </a>
-                </div>
-            </div>
+		<!-- About Section -->
+		<section id="sobre" class="section sobre">
+			<div class="container">
+				<h2 class="title is-2">Quem <span>eu sou</span></h2>
 
-            <div class="socials">
-                <div class="line"></div>
-                <div class="socials-icons">
-                    <a target="_blank" href="https://isacfg.github.io/portfolio/" class="social-icon">
-                        <ion-icon size="large" name="logo-behance"></ion-icon>
-                    </a>
-                    <a target="_blank" href="https://isacfg.github.io/portfolio/" class="social-icon">
-                        <ion-icon size="large" name="logo-instagram"></ion-icon>
-                    </a>
-                </div>
-                <div class="line"></div>
-            </div>
-        </div>
-    </section>
+				<p>
+					<!-- história ou descrição, missão, visão e valores -->
+					Oii meu nome é Alice, trabalho com fotografia desde 2010, e
+					mais especificamente fotografias de crianças a partir de
+					2018.
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section portfolio">
-
-        <div class="container">
-            <h2 class="title is-2">Um pouco do <span>meu trabalho</span></h2>
-
-            <div class="columns is-variable is-2">
-                <div class="column is-half">
-                    <div class="columns is-mobile is-variable is-2">
-                        <div class="column">
-                            <a target="_blank"
-                                href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\1a.jpg" alt="">
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@dani_franco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\1b.jpg" alt="">
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@shahinkhalaji?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img class="last-image" src="assets\photos\portfolio\1c.png" alt="">
-                            </a>
-                        </div>
-                        <div class="column">
-                            <a target="_blank"
-                                href="https://unsplash.com/@capturedby_kiana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\2a.jpg" alt="">
-
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@sarahlouisekinsella?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\2b.jpg" alt="">
-
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@danilal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img class="last-image" src="assets\photos\portfolio\2c.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-half">
-                    <div class="columns is-mobile is-variable is-2">
-                        <div class="column">
-                            <a target="_blank"
-                                href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\3a.jpg" alt="">
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@rikonavt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\3b.jpg" alt="">
-
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@ttrapani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img class="last-image" src="assets\photos\portfolio\3c.png" alt="">
-                            </a>
-                        </div>
-                        <div class="column">
-                            <a target="_blank"
-                                href="https://unsplash.com/@apsprudente?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\4a.jpg" alt="">
-
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@senjuti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img src="assets\photos\portfolio\4b.jpg" alt="">
-                            </a>
-                            <a target="_blank"
-                                href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                class="portfolio-item">
-                                <img class="last-image" src="assets\photos\portfolio\4c.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="botao">
-                <a class="button secondary is-rounded">
-                    Ver mais
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="sobre" class="section sobre">
-        <div class="container">
-            <h2 class="title is-2">Quem <span>eu sou</span></h2>
-
-            <p>
-
-                <!-- história ou descrição, missão, visão e valores -->
-                Oii meu nome é Alice, trabalho com fotografia desde 2010, e mais especificamente fotografias de crianças
-                a partir de 2018.
-
-                <!-- Tenho uma paixão especial por fotografia de crianças, pois acho que a infância é a fase mais bonita da
+					<!-- Tenho uma paixão especial por fotografia de crianças, pois acho que a infância é a fase mais bonita da
                 vida, e que deve
                 ser
                 preservada e eternizada, pois passa tão rápido.  -->
 
-                Meu objetivo é registrar a essência da criança, e fazer com que ela se sinta livre para ser quem ela é,
-                e brincar
-                com a câmera.
+					Meu objetivo é registrar a essência da criança, e fazer com
+					que ela se sinta livre para ser quem ela é, e brincar com a
+					câmera. Acredito que um bom trabalho necessite de respeito,
+					amor e criatividade
+				</p>
+				<p>
+					Quer saber mais sobre mim ou posso tirar uma foto sua? Por
+					favor sinta-se à vontade para me mandar uma menssagem 😊
+				</p>
 
-                Acredito que um bom trabalho necessite de respeito, amor e criatividade
+				<div class="botao">
+					<a href="#contato" class="button secondary is-rounded">
+						Contato
+					</a>
+				</div>
+			</div>
+		</section>
 
-            </p>
-            <p>Quer saber mais sobre mim ou posso tirar uma foto sua? Por favor sinta-se à vontade para me mandar uma
-                menssagem 😊
-            </p>
+		<!-- Seção Serviços -->
+		<section id="servicos" class="section servicos">
+			<div class="container">
+				<h2 class="title is-2">Meus <span>serviços</span></h2>
 
-            <div class="botao">
-                <a href="#contato" class="button secondary is-rounded">
-                    Contato
-                </a>
-            </div>
-        </div>
-    </section>
+				<div class="columns">
+					<div class="column is-4">
+						<div class="image image-1"></div>
+						<div class="content texts">
+							<h3 class="title is-4">Retratos</h3>
+							<p class="subtitle is-5">
+								que capturam a sua verdadeira beleza
+							</p>
+							<ul>
+								<li>12 arquivos digitais de alta resolução</li>
+								<li>90 min em um estúdio profissional</li>
+								<li>Galeria online para ver as fotos</li>
+								<li>Prazo de entrega de 1 a 2 semanas</li>
+								<li>Máximo de 4 pessoas por sessão</li>
+								<li>Idade: a partir de 6 meses</li>
+							</ul>
+							<div class="botao">
+								<a class="button secondary is-rounded">
+									Contato
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="column is-4">
+						<div class="image image-2"></div>
+						<div class="content texts">
+							<h3 class="title is-4">Ao ar livre</h3>
+							<p class="subtitle is-5">
+								para capturar sua conexão com a natureza
+							</p>
+							<ul>
+								<li>Mínimo de 20 fotos editadas</li>
+								<li>Em qualquer lugar do mundo</li>
+								<li>Galeria online para ver as fotos</li>
+								<li>Prazo de entrega de 1 a 2 semanas</li>
+								<li>Para crianças de 0 a 18 anos</li>
+							</ul>
+							<div class="botao">
+								<a class="button secondary is-rounded">
+									Contato
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="column is-4">
+						<div class="image image-3"></div>
+						<div class="content texts">
+							<h3 class="title is-4">Casamentos</h3>
+							<p class="subtitle is-5">
+								para capturar a pureza do amor verdadeiro
+							</p>
+							<ul>
+								<li>Mínimo de 50 fotos editadas</li>
+								<li>
+									Acompanha objetos para fazer os cenários
+								</li>
+								<li>Acompanha flores</li>
+								<li>Galeria online para ver as fotos</li>
+								<li>Prazo de entrega de 4 a 6 semanas</li>
+							</ul>
+							<div class="botao">
+								<a
+									class="button secondary is-rounded transition-custom"
+								>
+									Contato
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Seção Serviços -->
-    <section id="servicos" class="section servicos">
-        <div class="container">
-            <h2 class="title is-2">Meus <span>serviços</span></h2>
-
-            <div class="columns">
-                <div class="column is-4">
-                    <div class="image image-1">
-                    </div>
-                    <div class="content texts">
-                        <h3 class="title is-4">Retratos</h3>
-                        <p class="subtitle is-5">que capturam a sua verdadeira beleza</p>
-                        <ul>
-                            <li>12 arquivos digitais de alta resolução</li>
-                            <li>90 min em um estúdio profissional</li>
-                            <li>Galeria online para ver as fotos</li>
-                            <li>Prazo de entrega de 1 a 2 semanas</li>
-                            <li>Máximo de 4 pessoas por sessão</li>
-                            <li>Idade: a partir de 6 meses</li>
-                        </ul>
-                        <div class="botao">
-                            <a class="button secondary is-rounded">
-                                Contato
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-4">
-                    <div class="image image-2">
-                    </div>
-                    <div class="content texts">
-                        <h3 class="title is-4">Ao ar livre</h3>
-                        <p class="subtitle is-5">para capturar sua conexão com a natureza</p>
-                        <ul>
-                            <li>Mínimo de 20 fotos editadas</li>
-                            <li>Em qualquer lugar do mundo</li>
-                            <li>Galeria online para ver as fotos</li>
-                            <li>Prazo de entrega de 1 a 2 semanas</li>
-                            <li>Para crianças de 0 a 18 anos</li>
-                        </ul>
-                        <div class="botao">
-                            <a class="button secondary is-rounded">
-                                Contato
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-4">
-                    <div class="image image-3">
-                    </div>
-                    <div class="content texts">
-                        <h3 class="title is-4">Casamentos</h3>
-                        <p class="subtitle is-5">para capturar a pureza do amor verdadeiro</p>
-                        <ul>
-                            <li>Mínimo de 50 fotos editadas</li>
-                            <li>Acompanha objetos para fazer os cenários</li>
-                            <li>Acompanha flores</li>
-                            <li>Galeria online para ver as fotos</li>
-                            <li>Prazo de entrega de 4 a 6 semanas</li>
-                        </ul>
-                        <div class="botao">
-                            <a class="button secondary is-rounded">
-                                Contato
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção Parceiros -->
-    <section id="parceiros" class="section parceiros">
+		<!-- Seção Parceiros -->
+		<!-- <section id="parceiros" class="section parceiros">
         <div class="container">
             <h2 class="title is-2">Empresas que <span>confiam</span> no meu <span>trabalho</span></h2>
 
@@ -332,115 +424,166 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
-    <!-- Seção Contato -->
-    <section id="contato" class="section contact">
-        <div class="container">
-            <h2 class="title is-2">Agende um <span>horário</span></h2>
+		<!-- Seção Contato -->
+		<section id="contato" class="section contact">
+			<div class="container">
+				<h2 class="title is-2">Agende um <span>horário</span></h2>
 
-            <!-- Bulma Form -->
-            <div class="columns">
-                <div class="column is-8 is-offset-2">
+				<!-- Bulma Form -->
+				<div class="columns">
+					<div class="column is-8 is-offset-2">
+						<div class="field is-horizontal formulario">
+							<div class="field-body">
+								<div class="field">
+									<label for="name" class="label">Name</label>
+									<p class="control is-expanded">
+										<input
+											id="name"
+											class="input"
+											type="text"
+											placeholder=""
+										/>
+									</p>
+								</div>
+								<div class="field">
+									<label for="fone" class="label"
+										>Telefone</label
+									>
+									<p class="control is-expanded">
+										<input
+											id="fone"
+											class="input"
+											type="email"
+											placeholder=""
+											value=""
+										/>
+									</p>
+								</div>
+							</div>
+						</div>
 
+						<div class="field is-horizontal">
+							<div class="field-body">
+								<div class="field is-expanded">
+									<div class="field">
+										<label for="email" class="label"
+											>Email</label
+										>
+										<p
+											id="email"
+											class="control is-expanded"
+										>
+											<input
+												class="input"
+												type="tel"
+												placeholder=""
+											/>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 
-                    <div class="field is-horizontal formulario">
-                        <div class="field-body">
-                            <div class="field">
-                                <label for="name" class="label">Name</label>
-                                <p class="control is-expanded">
-                                    <input id="name" class="input" type="text" placeholder="Ex: Sherlock Holmes">
-                                </p>
-                            </div>
-                            <div class="field">
-                                <label for="fone" class="label">Telefone</label>
-                                <p class="control is-expanded">
-                                    <input id="fone" class="input" type="email" placeholder="Ex: (69) 2323-3494"
-                                        value="">
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+						<div class="field is-horizontal">
+							<div class="field-body">
+								<div class="field">
+									<label for="subject" class="label"
+										>Assunto</label
+									>
+									<div class="control">
+										<input
+											id="subject"
+											class="input"
+											type="text"
+											placeholder=""
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
 
-                    <div class="field is-horizontal">
-                        <div class="field-body">
-                            <div class="field is-expanded">
-                                <div class="field">
-                                    <label for="email" class="label">Email</label>
-                                    <p id="email" class="control is-expanded">
-                                        <input class="input" type="tel" placeholder="Ex:  sherlockandjohn@gmail.com">
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+						<div class="field is-horizontal">
+							<div class="field-body">
+								<div class="field">
+									<label for="message" class="label"
+										>Menssagem</label
+									>
+									<div class="control">
+										<textarea
+											id="message"
+											class="textarea"
+											placeholder=""
+										></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
 
+						<div class="field is-horizontal">
+							<div class="field-body">
+								<div class="field">
+									<div class="control">
+										<button
+											class="button secondary is-rounded"
+										>
+											Enviar
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                    <div class="field is-horizontal">
-                        <div class="field-body">
-                            <div class="field">
-                                <label for="subject" class="label">Assunto</label>
-                                <div class="control">
-                                    <input id="subject" class="input" type="text"
-                                        placeholder="Ex: orçamento para retratos">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+		<!-- Seção Footer -->
+		<footer class="">
+			<div class="container">
+				<div class="rodape">
+					<p>ProSEmpre BETA - EJECT © 2022.2</p>
+					<p>
+						<a
+							target="_blank"
+							href="https://isacfg.github.io/portfolio/"
+							>made with <span>❤</span> by </a
+						><a
+							target="_blank"
+							href="https://www.instagram.com/p_izaky/"
+							>@p_izaky</a
+						>
+					</p>
+				</div>
+			</div>
+		</footer>
 
-                    <div class="field is-horizontal">
-                        <div class="field-body">
-                            <div class="field">
-                                <label for="message" class="label">Menssagem</label>
-                                <div class="control">
-                                    <textarea id="message" class="textarea" placeholder="Menssagem"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+		<!-- Ionic Icons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
 
-                    <div class="field is-horizontal">
-                        <div class="field-body">
-                            <div class="field">
-                                <div class="control">
-                                    <button class="button secondary is-rounded">
-                                        Enviar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+		<!-- SlickJs -->
+		<script
+			type="text/javascript"
+			src="//code.jquery.com/jquery-1.11.0.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+		></script>
+		<script type="text/javascript" src="js\slick.js"></script>
 
-    <!-- Seção Footer -->
-    <footer class="">
-        <div class="container">
-            <div class="rodape">
-                <p>ProSEmpre BETA - EJECT © 2022.2</p>
-                <p><a target="_blank" href="https://isacfg.github.io/portfolio/">made with <span>❤</span> by </a><a
-                        target="_blank" href="https://www.instagram.com/p_izaky/">@p_izaky</a></p>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- Ionic Icons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    <!-- SlickJs -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js\slick.js"></script>
-
-    <!-- Javascript -->
-    <script src="js/nav.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/animations.js"></script>
-    <script src="js/form.js"></script>
-</body>
-
+		<!-- Javascript -->
+		<script src="js/nav.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/animations.js"></script>
+		<script src="js/form.js"></script>
+	</body>
 </html>
